@@ -1,0 +1,11 @@
+
+# a basic set of settings that are included for all
+default: &default
+  pool: 5
+  timeout: 5000
+
+# the db settings used for local development
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
+  <<: *default

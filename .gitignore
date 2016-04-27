@@ -1,0 +1,11 @@
+node_modules
+
+.bundle
+
+.sass-cache
+
+npm-debug.log
+
+app/assets/javascripts
+
+db/*.sqlite3

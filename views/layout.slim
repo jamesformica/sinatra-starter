@@ -1,0 +1,16 @@
+doctype html
+html
+	
+	head
+		title New Application
+
+		meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"
+
+		== stylesheet_tag 'vendor', :expand => true
+		== stylesheet_tag 'application', :expand => true
+
+		== javascript_tag 'vendor', :expand => true
+		== javascript_tag 'application', :expand => true
+
+	body
+		== yield
